@@ -1,4 +1,4 @@
-# �Spring boot를 이용한 게시판 구현
+# Spring boot를 이용한 게시판 구현
 
 - **프로젝트 명**: Spring Boot와 MySQL을 이용한 게시판 구현
 - **프로젝트 기간**
