@@ -69,57 +69,57 @@ CREATE TABLE tb_board (
   - 방법1. 롬복(Lombok) 라이브러리를 이용하여 추가
   - 방법2. 기존의 방식대로 getter/setter를 추가
     - Alt+Shift+S 키 입력 - Generate Getters and Setters 활용하면 모든 멤버 변수에 대한 getter/setter 쉽게 생성 가능
-    
+    <br>
     <details>
         <summary> BoardDTO.java 코드 더보기</summary>
         <div markdown="1">
-  
-  ```java
-  package com.board.domain;
-  
-  import java.time.LocalDateTime;
-  
-  import lombok.Getter;
-  import lombok.Setter;
-  
-  @Getter
-  @Setter
-  public class BoardDTO {
-  
-  	/** 번호 (PK) */
-  	private Long idx;
-  
-  	/** 제목 */
-  	private String title;
-  
-  	/** 내용 */
-  	private String content;
-  
-  	/** 작성자 */
-  	private String writer;
-  
-  	/** 조회 수 */
-  	private int viewCnt;
-  
-  	/** 공지 여부 */
-  	private String noticeYn;
-  
-  	/** 비밀 여부 */
-  	private String secretYn;
-  
-  	/** 삭제 여부 */
-  	private String deleteYn;
-  
-  	/** 등록일 */
-  	private LocalDateTime insertTime;
-  
-  	/** 수정일 */
-  	private LocalDateTime updateTime;
-  
-  	/** 삭제일 */
-  	private LocalDateTime deleteTime;
-  }
-  ```
+
+	  ```java
+	  package com.board.domain;
+
+	  import java.time.LocalDateTime;
+
+	  import lombok.Getter;
+	  import lombok.Setter;
+
+	  @Getter
+	  @Setter
+	  public class BoardDTO {
+
+		/** 번호 (PK) */
+		private Long idx;
+
+		/** 제목 */
+		private String title;
+
+		/** 내용 */
+		private String content;
+
+		/** 작성자 */
+		private String writer;
+
+		/** 조회 수 */
+		private int viewCnt;
+
+		/** 공지 여부 */
+		private String noticeYn;
+
+		/** 비밀 여부 */
+		private String secretYn;
+
+		/** 삭제 여부 */
+		private String deleteYn;
+
+		/** 등록일 */
+		private LocalDateTime insertTime;
+
+		/** 수정일 */
+		private LocalDateTime updateTime;
+
+		/** 삭제일 */
+		private LocalDateTime deleteTime;
+	  }
+	  ```
   
   </div></details>
   
@@ -180,7 +180,7 @@ CREATE TABLE tb_board (
   <img src="./img/image-20210802132206992.png">
 
 
-
+<br>
 <details>
     <summary> BoardMapper.xml 코드 더보기</summary>
     <div markdown="1">
@@ -319,7 +319,7 @@ CREATE TABLE tb_board (
 - application.properties에 마이바티스 설정이 추가되었기 때문에, 해당 설정을 처리할 빈(Bean)을 정의해줘야 한다. 
 
 - DBConfiguration 클래스를 다음과 같이 변경해주자.
-
+<br>
   <details>
       <summary> DBConfiguration.java 코드 더보기</summary>
       <div markdown="1">
