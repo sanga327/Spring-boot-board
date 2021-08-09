@@ -76,7 +76,7 @@ CREATE TABLE tb_board (
     - Alt+Shift+S 키 입력 - Generate Getters and Setters 활용하면 모든 멤버 변수에 대한 getter/setter 쉽게 생성 가능
     <br>
     <details>
-        <summary> BoardDTO.java 코드 더보기</summary>
+        <summary> BoardDTO.java 코드 보기</summary>
         <div markdown="1">
 
 	  ```java
@@ -128,7 +128,7 @@ CREATE TABLE tb_board (
   
   </div></details>
   
-  <img src="./img/image-20210802112356113.png">
+  	<img src="./img/image-20210802112356113.png">
 
 
 
@@ -187,7 +187,7 @@ CREATE TABLE tb_board (
 
 <br>
 <details>
-    <summary> BoardMapper.xml 코드 더보기</summary>
+    <summary> BoardMapper.xml 코드 보기</summary>
     <div markdown="1">
 
 ```xml
@@ -326,7 +326,7 @@ CREATE TABLE tb_board (
 - DBConfiguration 클래스를 다음과 같이 변경해주자.
 <br>
   <details>
-      <summary> DBConfiguration.java 코드 더보기</summary>
+      <summary> DBConfiguration.java 코드 보기</summary>
       <div markdown="1">
 
   ```java
