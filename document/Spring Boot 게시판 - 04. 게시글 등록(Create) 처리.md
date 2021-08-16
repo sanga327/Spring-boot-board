@@ -33,9 +33,9 @@
 
 - com.board.service - BoardService - BoardServiceImpl 클래스 생성
 
-  <details>
-      <summary> BoardServiceImpl 코드 보기</summary>
-      <div markdown="1">
+<details>
+<summary> BoardServiceImpl 코드 보기</summary>
+<div markdown="1">
 
 ```java
 package com.board.service;
@@ -104,9 +104,9 @@ public class BoardServiceImpl implements BoardService {
 
 </div></details>
 
-<details>
+  <details>
     <summary> BoardServiceImpl 코드 설명 보기</summary>
-    <div markdown="1">
+      <div markdown="1">
 
 | 메서드 및 기타 | 설명                                                         |
 | -------------- | ------------------------------------------------------------ |
@@ -189,9 +189,9 @@ Controller의 처리가 완료되면, 메서드의 return 타입으로 지정된
   </html>
   ```
 
-write.html에 실행 내용 넣고, 실행 후 http://localhost:8080/board/write.do 로 접속하면, write.html에 해당하는 화면이 출력된다. 
+  - write.html에 실행 내용 넣고, 실행 후 http://localhost:8080/board/write.do 로 접속하면, write.html에 해당하는 화면이 출력된다. 
 
-<img src="./img/image-20210813153859712.png">
+  <img src="./img/image-20210813153859712.png">
 
 <br>
 
@@ -329,7 +329,7 @@ write.html에 실행 내용 넣고, 실행 후 http://localhost:8080/board/write
   - `th:href`: < a > 태그의 href 속성과 동일하며, JSTL의 < c:url > 태그와 마찬가지로 웹 어플리케이션을 구분하는 콘텍스트 경로(Context Path)를 포함한다. 
     - application.properties에서 콘텍스트 경로(Context Path)를 원하는 경로로 변경할 수 있다. 
 
-
+<br>
 
 - body.html 작성
 
