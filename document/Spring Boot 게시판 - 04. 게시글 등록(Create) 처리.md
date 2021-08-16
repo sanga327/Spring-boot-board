@@ -263,7 +263,7 @@ Controller의 처리가 완료되면, 메서드의 return 타입으로 지정된
   - 화면을 꾸미기 위한 기능
   - UI를 쉽고 빠르게 구성할 수 있도록 도와주는 HTML, CSS, JS 프레임워크
 
-- static.zip 파일을 다운로드하고, 압축을 해제한 후, src/main/resources - static 폴더에 추가한다. 
+- [static.zip](https://github.com/sanga327/Spring-boot-board/tree/main/bootstrap) 파일을 다운로드하고, 압축을 해제한 후, src/main/resources - static 폴더에 추가한다. 
 
   <img src="./img/image-20210809131143555.png">
 
